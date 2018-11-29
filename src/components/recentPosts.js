@@ -19,11 +19,12 @@ class RecentPosts extends Component {
     });
     return posts;
   };
+
   render() {
     return (
       <div className="recent-posts">
         <div className="recent-posts__wrapper">
-          <div className="recent-posts__heading"> Recent Posts </div>
+          <div className="recent-posts__heading">Recent Posts</div>
           <ul className="recent-posts__posts">{this.renderPosts()}</ul>
         </div>
       </div>
