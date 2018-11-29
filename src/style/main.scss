@@ -20,3 +20,12 @@ body {
   justify-content: center;
   // grid-template-rows: 1fr 2fr 1fr;
 }
+
+.logo-main {
+  display: grid;
+  justify-content: center;
+}
+
+$color-gray-one: #666666;
+
+@import "searchBar";
