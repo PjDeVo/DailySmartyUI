@@ -50,12 +50,8 @@ class Post extends Component {
           <div className="result-post__title">
             <a
               href={this.props.url_for_post}
-              onMouseEnter={() => {
-                this.setState({ height: 70 });
-              }}
-              onMouseLeave={() => {
-                this.setState({ height: 0 });
-              }}
+              onMouseEnter={() => this.setState({ height: 70 })}
+              onMouseLeave={() => this.setState({ height: 0 })}
             >
               {this.props.title}
             </a>
